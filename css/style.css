@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background-color: #1D2530; */
+}
+
+header{
+}
+
+main{
+    background: #131313;
+}
