@@ -1,14 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* background-color: #1D2530; */
+    list-style: none;
+    color: #ffe4c4;
+    font-family: "Edu VIC WA NT Hand Pre",cursive;
 }
-
 header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../photos/bg\ photo.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 30px;
 }
-
-main{
-    background: #131313;
+nav{
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    background-color: #3b3b3b8c;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.banner-content{
+    width: 50%;
+    min-height: 75vh;
+    background: #2323232f;
+    border: none;
 }
