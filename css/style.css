@@ -45,3 +45,6 @@ nav{
     background: #2323232f;
     border: none;
 }
+.menu{
+    display: none;
+}
