@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
     .menu{
         display: block;
         cursor: pointer;
@@ -12,6 +16,48 @@
         padding: 30px;
         flex-direction: column;
         border-radius: 30px;
-        display: none;
+        transform: translateX(120%);
+        /* transform: scale(0); */
+        transition: 0.5s;
+        /* transform-origin: right top; */
+        /* display: none; */
     }
+    .show{
+        transform: translate(0);
+        /* transform: scale(1); */
+        /* display: block; */
+    }
+    .banner-content{
+        width: 100%;
+        padding-left: 40px;
+        padding-left: 40px;
+    }
+
+    /* sections */
+    section{
+        padding: 50px 0;
+    }
+
+    /* about section */
+    .about-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .about-image{
+        margin-top: 40px;
+    }
+
+    /* menu section */
+    .menu-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    
 }
