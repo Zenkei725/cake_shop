@@ -59,5 +59,11 @@
         gap: 20px;
     }
 
-    
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+
+    .row{
+        grid-template-columns: 1fr;
+    }
 }

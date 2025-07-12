@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,6 @@
     text-decoration: none;
     list-style: none;
     color: #ffe4c4;
-    font-family: "Edu VIC WA NT Hand Pre",cursive;
 }
 html{
     scroll-behavior: smooth;
@@ -20,6 +21,7 @@ header{
     background-size: cover;
     background-position: 50% 50%;
     padding-top: 30px;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
 }
 nav{
     width: 80%;
@@ -35,6 +37,7 @@ nav{
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 .logo{
     display: flex;
@@ -79,6 +82,7 @@ section{
     box-shadow: 2px 2px 4px rgba(145, 134, 134, 0.384);
     margin-top: 5px;
     padding: 130px;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
 }
 .title{
     text-align: center;
@@ -162,5 +166,91 @@ section{
 }
 
 /* contact section */
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 50px;
+}
 
+.contact-section{
+    box-shadow: 2px 2px 4px #868181;
+    padding: 30px;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+/* contact form */
+.contact-form{
+    width: 100%;
+    height: 100%;
+    background: #2fe75dc5;
+    box-shadow: 5px 5px 4px #cdebcf;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
 
+.contact-form input{
+    padding: 9px;
+    border-radius: 10px;
+    color: black;
+}
+
+textarea{
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px;
+    background: black;
+    width: 80px;
+    margin-left: 75px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    
+}
+.text{
+    padding: 5px;
+    color: black;
+}
+/* footer */
+.footer{
+    font-family: "Roboto", sans-serif;
+    background: black;
+    color: white;
+    padding: 90px 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.column{
+    width: 20%;
+    padding: 0 90px;
+}
+
+.column h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.column ul li{
+    margin-bottom: 14px;
+}
+
+.column ul li a{
+    font-size: 16px;
+    color: #bbb;
+}
